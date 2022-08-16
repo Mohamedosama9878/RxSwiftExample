@@ -1,0 +1,1410 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RxPractice",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "RxCocoa",
+      "printedName": "RxCocoa",
+      "declKind": "Import",
+      "moduleName": "RxPractice"
+    },
+    {
+      "kind": "Import",
+      "name": "RxSwift",
+      "printedName": "RxSwift",
+      "declKind": "Import",
+      "moduleName": "RxPractice"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "disposeBag",
+          "printedName": "disposeBag",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DisposeBag",
+              "printedName": "RxSwift.DisposeBag",
+              "usr": "s:7RxSwift10DisposeBagC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC10disposeBag33_AF6FFF86FCB526A94B7C92176A8F14D8LL0A5Swift07DisposeF0Cvp",
+          "mangledName": "$s10RxPractice14ViewControllerC10disposeBag33_AF6FFF86FCB526A94B7C92176A8F14D8LL0A5Swift07DisposeF0Cvp",
+          "moduleName": "RxPractice",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "viewModel",
+          "printedName": "viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewModel",
+              "printedName": "RxPractice.ViewModel",
+              "usr": "s:10RxPractice9ViewModelC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC9viewModel33_AF6FFF86FCB526A94B7C92176A8F14D8LLAA0cF0Cvp",
+          "mangledName": "$s10RxPractice14ViewControllerC9viewModel33_AF6FFF86FCB526A94B7C92176A8F14D8LLAA0cF0Cvp",
+          "moduleName": "RxPractice",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_loginStackView",
+          "printedName": "$__lazy_storage_$_loginStackView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIStackView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC028$__lazy_storage_$_loginStackC033_AF6FFF86FCB526A94B7C92176A8F14D8LLSo07UIStackC0CSgvp",
+          "mangledName": "$s10RxPractice14ViewControllerC028$__lazy_storage_$_loginStackC033_AF6FFF86FCB526A94B7C92176A8F14D8LLSo07UIStackC0CSgvp",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_titleLabel",
+          "printedName": "$__lazy_storage_$_titleLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC28$__lazy_storage_$_titleLabel33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo7UILabelCSgvp",
+          "mangledName": "$s10RxPractice14ViewControllerC28$__lazy_storage_$_titleLabel33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo7UILabelCSgvp",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_userNameTft",
+          "printedName": "$__lazy_storage_$_userNameTft",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UITextField?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITextField",
+                  "printedName": "UIKit.UITextField",
+                  "usr": "c:objc(cs)UITextField"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC29$__lazy_storage_$_userNameTft33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo11UITextFieldCSgvp",
+          "mangledName": "$s10RxPractice14ViewControllerC29$__lazy_storage_$_userNameTft33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo11UITextFieldCSgvp",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_passwordTft",
+          "printedName": "$__lazy_storage_$_passwordTft",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UITextField?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITextField",
+                  "printedName": "UIKit.UITextField",
+                  "usr": "c:objc(cs)UITextField"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC29$__lazy_storage_$_passwordTft33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo11UITextFieldCSgvp",
+          "mangledName": "$s10RxPractice14ViewControllerC29$__lazy_storage_$_passwordTft33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo11UITextFieldCSgvp",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_loginButton",
+          "printedName": "$__lazy_storage_$_loginButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIButton",
+                  "printedName": "UIKit.UIButton",
+                  "usr": "c:objc(cs)UIButton"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice14ViewControllerC29$__lazy_storage_$_loginButton33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo8UIButtonCSgvp",
+          "mangledName": "$s10RxPractice14ViewControllerC29$__lazy_storage_$_loginButton33_AF6FFF86FCB526A94B7C92176A8F14D8LLSo8UIButtonCSgvp",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s10RxPractice14ViewControllerC11viewDidLoadyyF",
+          "moduleName": "RxPractice",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "RxPractice.ViewController",
+              "usr": "c:@M@RxPractice@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RxPractice@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s10RxPractice14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "RxPractice",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RxPractice.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "RxPractice.ViewController",
+                  "usr": "c:@M@RxPractice@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RxPractice@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s10RxPractice14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "RxPractice",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RxPractice@objc(cs)ViewController",
+      "mangledName": "$s10RxPractice14ViewControllerC",
+      "moduleName": "RxPractice",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ReactiveCompatible",
+          "printedName": "ReactiveCompatible",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ReactiveBase",
+              "printedName": "ReactiveBase",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSObject",
+                  "printedName": "ObjectiveC.NSObject",
+                  "usr": "c:objc(cs)NSObject"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7RxSwift18ReactiveCompatibleP",
+          "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewModel",
+      "printedName": "ViewModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "userNameSubject",
+          "printedName": "userNameSubject",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PublishSubject",
+              "printedName": "RxSwift.PublishSubject<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7RxSwift14PublishSubjectC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice9ViewModelC15userNameSubject0A5Swift07PublishG0CySSGvp",
+          "mangledName": "$s10RxPractice9ViewModelC15userNameSubject0A5Swift07PublishG0CySSGvp",
+          "moduleName": "RxPractice",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PublishSubject",
+                  "printedName": "RxSwift.PublishSubject<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7RxSwift14PublishSubjectC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RxPractice9ViewModelC15userNameSubject0A5Swift07PublishG0CySSGvg",
+              "mangledName": "$s10RxPractice9ViewModelC15userNameSubject0A5Swift07PublishG0CySSGvg",
+              "moduleName": "RxPractice",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "passwordSubject",
+          "printedName": "passwordSubject",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PublishSubject",
+              "printedName": "RxSwift.PublishSubject<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7RxSwift14PublishSubjectC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RxPractice9ViewModelC15passwordSubject0A5Swift07PublishF0CySSGvp",
+          "mangledName": "$s10RxPractice9ViewModelC15passwordSubject0A5Swift07PublishF0CySSGvp",
+          "moduleName": "RxPractice",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PublishSubject",
+                  "printedName": "RxSwift.PublishSubject<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7RxSwift14PublishSubjectC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RxPractice9ViewModelC15passwordSubject0A5Swift07PublishF0CySSGvg",
+              "mangledName": "$s10RxPractice9ViewModelC15passwordSubject0A5Swift07PublishF0CySSGvg",
+              "moduleName": "RxPractice",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "isValid",
+          "printedName": "isValid()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Observable",
+              "printedName": "RxSwift.Observable<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7RxSwift10ObservableC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RxPractice9ViewModelC7isValid0A5Swift10ObservableCySbGyF",
+          "mangledName": "$s10RxPractice9ViewModelC7isValid0A5Swift10ObservableCySbGyF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewModel",
+              "printedName": "RxPractice.ViewModel",
+              "usr": "s:10RxPractice9ViewModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RxPractice9ViewModelCACycfc",
+          "mangledName": "$s10RxPractice9ViewModelCACycfc",
+          "moduleName": "RxPractice",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10RxPractice9ViewModelC",
+      "mangledName": "$s10RxPractice9ViewModelC",
+      "moduleName": "RxPractice",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RxPractice",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s10RxPractice11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s10RxPractice11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s10RxPractice11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RxPractice11AppDelegateC5$mainyyFZ",
+          "mangledName": "$s10RxPractice11AppDelegateC5$mainyyFZ",
+          "moduleName": "RxPractice",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "RxPractice.AppDelegate",
+              "usr": "c:@M@RxPractice@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RxPractice@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s10RxPractice11AppDelegateCACycfc",
+          "moduleName": "RxPractice",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RxPractice@objc(cs)AppDelegate",
+      "mangledName": "$s10RxPractice11AppDelegateC",
+      "moduleName": "RxPractice",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ReactiveCompatible",
+          "printedName": "ReactiveCompatible",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ReactiveBase",
+              "printedName": "ReactiveBase",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSObject",
+                  "printedName": "ObjectiveC.NSObject",
+                  "usr": "c:objc(cs)NSObject"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7RxSwift18ReactiveCompatibleP",
+          "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RxPractice",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s10RxPractice13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s10RxPractice13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "RxPractice",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s10RxPractice13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "RxPractice",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RxPractice13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s10RxPractice13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "RxPractice",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s10RxPractice13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s10RxPractice13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s10RxPractice13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s10RxPractice13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s10RxPractice13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s10RxPractice13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "RxPractice",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "RxPractice.SceneDelegate",
+              "usr": "c:@M@RxPractice@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RxPractice@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s10RxPractice13SceneDelegateCACycfc",
+          "moduleName": "RxPractice",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RxPractice@objc(cs)SceneDelegate",
+      "mangledName": "$s10RxPractice13SceneDelegateC",
+      "moduleName": "RxPractice",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ReactiveCompatible",
+          "printedName": "ReactiveCompatible",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ReactiveBase",
+              "printedName": "ReactiveBase",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSObject",
+                  "printedName": "ObjectiveC.NSObject",
+                  "usr": "c:objc(cs)NSObject"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7RxSwift18ReactiveCompatibleP",
+          "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

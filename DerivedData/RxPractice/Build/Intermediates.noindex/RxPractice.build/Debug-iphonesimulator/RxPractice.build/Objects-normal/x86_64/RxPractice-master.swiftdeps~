@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1660645622, 279894828]
+build_end_time: [1660645626, 845128059]
+inputs:
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/RxPractice/AppDelegate.swift": [1660645212, 820001602]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/RxPractice/SceneDelegate.swift": [1660645212, 827147960]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/RxPractice/ViewController.swift": [1660645617, 354591846]

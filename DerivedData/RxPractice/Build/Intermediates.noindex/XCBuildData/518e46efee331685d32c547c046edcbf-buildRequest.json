@@ -1,0 +1,63 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "7df3c72587f39ede1e3a56278230398e051da789c85b536ad86028141d1aa39c"
+    }
+  ],
+  "containerPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/RxPractice.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Build/Products",
+      "derivedDataPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "32CD58C5-9155-4D06-B3DD-0861FE41CFA9",
+          "TARGET_DEVICE_MODEL" : "iPhone14,3",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

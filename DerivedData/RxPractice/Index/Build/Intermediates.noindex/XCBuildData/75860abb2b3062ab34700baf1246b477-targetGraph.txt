@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+RxPractice in RxPractice, no dependencies
+RxPractice in RxPractice, no dependencies

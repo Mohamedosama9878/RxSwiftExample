@@ -5,6 +5,211 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>24650F43-BEA7-4197-A292-17D5D00CF810</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>24650F43-BEA7-4197-A292-17D5D00CF810.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682340163.39547098</real>
+			<key>timeStoppedRecording</key>
+			<real>682340176.97011006</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>24650F43-BEA7-4197-A292-17D5D00CF810</string>
+		</dict>
+		<key>2CD22BB8-6757-4ABF-8519-BBE335976369</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2CD22BB8-6757-4ABF-8519-BBE335976369.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682340564.88009298</real>
+			<key>timeStoppedRecording</key>
+			<real>682340568.70876598</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>2CD22BB8-6757-4ABF-8519-BBE335976369</string>
+		</dict>
+		<key>6E575655-609E-41EC-B469-D0D2FCA4E59A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6E575655-609E-41EC-B469-D0D2FCA4E59A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682340274.05805898</real>
+			<key>timeStoppedRecording</key>
+			<real>682340280.65171194</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>6E575655-609E-41EC-B469-D0D2FCA4E59A</string>
+		</dict>
+		<key>A8C5CF21-E6A4-47B7-8584-D77F72BF5444</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8C5CF21-E6A4-47B7-8584-D77F72BF5444.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682340180.57000005</real>
+			<key>timeStoppedRecording</key>
+			<real>682340206.10470295</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>A8C5CF21-E6A4-47B7-8584-D77F72BF5444</string>
+		</dict>
+		<key>C5DF7972-DEA4-4CA5-B64A-8968DAEEF642</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C5DF7972-DEA4-4CA5-B64A-8968DAEEF642.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682340336.82017398</real>
+			<key>timeStoppedRecording</key>
+			<real>682340340.73914802</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>C5DF7972-DEA4-4CA5-B64A-8968DAEEF642</string>
+		</dict>
+		<key>DBF6EB08-C05F-4AD0-80DA-CFA6DA09A5EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DBF6EB08-C05F-4AD0-80DA-CFA6DA09A5EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxPractice</string>
+			<key>timeStartedRecording</key>
+			<real>682339347.27529502</real>
+			<key>timeStoppedRecording</key>
+			<real>682339350.33729398</real>
+			<key>title</key>
+			<string>Build RxPractice</string>
+			<key>uniqueIdentifier</key>
+			<string>DBF6EB08-C05F-4AD0-80DA-CFA6DA09A5EF</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

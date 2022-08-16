@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxRelay.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "57e3a72a2865e39529628e09d2127c30539f8f9e1457e92b1fa7b32c05ea3c0f"
+build_start_time: [1660647392, 738154888]
+build_end_time: [1660647394, 511831998]
+inputs:
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1660646671, 105420589]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1660646671, 105250835]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/Pods/RxRelay/RxRelay/PublishRelay.swift": [1660646671, 105065822]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/Pods/RxRelay/RxRelay/ReplayRelay.swift": [1660646671, 105161666]
+  "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/Pods/RxRelay/RxRelay/Utils.swift": [1660646671, 105335235]

@@ -1,0 +1,74 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420220618b21bd3bad78282adc559446d7"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424f96f1021f5250ab30d486e660411efe"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420daa2e2cd26ad5ca345c3044f7db418b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4291ffb250f3b44ffb9b452226d52e9fa9"
+    },
+    {
+      "guid" : "7df3c72587f39ede1e3a56278230398e051da789c85b536ad86028141d1aa39c"
+    }
+  ],
+  "containerPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/RxPractice.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/Build/Products",
+      "derivedDataPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/mohamedosama/Downloads/iOS_Development/RxPractice/DerivedData/RxPractice/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
